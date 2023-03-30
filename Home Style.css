@@ -1,0 +1,39 @@
+header {
+    font-size: 50px;
+    color: White;
+}
+
+
+table, th, td {
+    border: 2px solid red;
+    border-collapse: collapse;
+
+}
+
+td{
+    text-align: center;
+    width: 150px;
+    height: fit-content;
+
+}
+
+html{
+    padding-left: cm;
+    padding-right: 5cm;
+    background-color: black;
+
+}
+
+body{
+  background-image: url('img/DeadChums.png');
+  background-repeat: no-repeat;
+  background-position-x: 75%;
+  background-position-y: 25%;
+
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+    font-size: 25px;
+}

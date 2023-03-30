@@ -1,0 +1,25 @@
+table, th, td {
+    border: 2px solid blueviolet;
+    width: 150px;
+    border-collapse: collapse;
+
+}
+
+td{
+    text-align: center;
+    text-decoration: underline none;
+
+
+}
+
+html{
+    padding-left: cm;
+    padding-right: 5cm;
+    background-color: blueviolet;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+    font-size: 25px;
+}
