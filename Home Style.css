@@ -1,6 +1,7 @@
 header {
     font-size: 50px;
     color: White;
+    
 }
 
 
@@ -24,13 +25,6 @@ html{
 
 }
 
-body{
-  background-image: url('img/DeadChums.png');
-  background-repeat: no-repeat;
-  background-position-x: 75%;
-  background-position-y: 25%;
-
-}
 
 a {
     text-decoration: none;

@@ -23,3 +23,15 @@ header {
     font-size: 50px;
 
 }
+
+p {
+    color: white;
+    font-size: 25px;
+    margin-left: 1.5%;
+    margin-top: 5%;
+}
+
+a {
+    color: black;
+
+}

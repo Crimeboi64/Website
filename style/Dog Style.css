@@ -13,7 +13,7 @@ td{
 }
 
 html{
-    padding-left: cm;
+    padding-left: 0cm;
     padding-right: 5cm;
     background-color: burlywood;
 }
@@ -21,5 +21,19 @@ html{
 
 header {
     font-size: 50px;
+    color: rgb(219, 13, 61);
+
+}
+
+p {
+    font-size: 35px;
+    margin-left: 15%;
+    margin-top: 10%;
+    color: white;
+
+}
+
+a {
+    color: black;
 
 }
