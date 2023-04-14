@@ -92,6 +92,11 @@ p a{
     color: orangered;
 }
 
+p a:hover{
+    color: green;
+    font-weight: bold;
+}
+
 h1{
     font-size: 75px;
 }

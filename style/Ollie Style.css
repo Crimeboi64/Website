@@ -5,14 +5,14 @@
 
 body{
     font-family: sans-serif;
-    background: black;
+    background: #ebebeb;
 }
 
 .menu a {
     display: block;
     font-size: 1.5rem;
     padding: 1rem 1.5rem;
-    color: darkgray;
+    color: grey;
     transition: all .3s linear;
     text-decoration: none;
 }
@@ -42,7 +42,7 @@ body{
 }
 
 .fa-bars:hover{
-    color: white;
+    color: black;
 }
 
 .fa-arrow-left{
@@ -76,26 +76,4 @@ body{
 .menu a:hover{
     background: #f8a5a5;
     padding-left: 1.7rem;
-}
-
-p{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 35px;
-    color: white;
-    padding-left: 10%;
-    margin-right: 120px;
-    margin-top: 10%;
-}
-
-p a{
-    text-decoration: none;
-    color: red;
-}
-
-p a:hover{
-    color: blue;
-}
-
-h1{
-    font-size: 75px;
 }

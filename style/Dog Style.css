@@ -92,6 +92,10 @@ p a{
     color: rgb(153, 61, 153);
 }
 
+p a:hover{
+    color: white;
+}
+
 h1{
     font-size: 75px;
     color: white;
