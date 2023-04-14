@@ -5,14 +5,14 @@
 
 body{
     font-family: sans-serif;
-    background: black;
+    background: rgb(253, 137, 5);
 }
 
 .menu a {
     display: block;
     font-size: 1.5rem;
     padding: 1rem 1.5rem;
-    color: darkgray;
+    color: #05FD89;
     transition: all .3s linear;
     text-decoration: none;
 }
@@ -21,7 +21,7 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    background: white;
+    background: #8905FD;
     width: 100%;
     height: 100%;
     transition: all .3s linear;
@@ -36,18 +36,18 @@ body{
     position: fixed;
     top: 2rem;
     right: 3rem;
-    color: #e94949;
+    color: #05FD89;
     font-size: 1.5rem;
     cursor: pointer;
 }
 
 .fa-bars:hover{
-    color: white;
+    color: black;
 }
 
 .fa-arrow-left{
     font-size: 1.5rem;
-    color: #e94949;
+    color: #05FD89;
     cursor: pointer;
 }
 
@@ -81,7 +81,7 @@ body{
 p{
     font-family: 'Times New Roman', Times, serif;
     font-size: 35px;
-    color: white;
+    color: #05FD89;
     padding-left: 10%;
     margin-right: 120px;
     margin-top: 10%;
@@ -89,11 +89,11 @@ p{
 
 p a{
     text-decoration: none;
-    color: red;
+    color: #05FD89;
 }
 
 p a:hover{
-    color: blue;
+    color: black;
 }
 
 h1{
