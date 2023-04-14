@@ -77,3 +77,127 @@ body{
     background: #f8a5a5;
     padding-left: 1.7rem;
 }
+
+.container {
+	max-width: 640px;
+	margin: 30px auto;
+	background: #fff;
+	border-radius: 8px;
+	padding: 20px;
+}
+
+.comment {
+	display: block;
+	transition: all 1s;
+}
+.commentClicked {
+	min-height: 0px;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	padding: 5px 10px
+}
+.container textarea {
+	width: 100%;
+	border: none;
+	background: #E8E8E8;
+	padding: 5px 10px;
+	height: 50%;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom: 2px solid #016BA8;
+	transition: all 0.5s;
+	margin-top: 15px;
+}
+button.primaryContained {
+	background: #016ba8;
+	color: #fff;
+	padding: 10px 10px;
+	border: none;
+	margin-top: 0px;
+	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+	transition: 1s all;
+	font-size: 10px;
+	border-radius: 5px;
+}
+button.primaryContained:hover {
+	background: #9201A8;
+}
+
+
+  /*
+  =============== 
+  Global Styles
+  ===============
+  */
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #ebebeb;
+  }
+  
+  p {
+    margin-bottom: 1.25rem;
+    color: pink;
+  }
+  
+  .section-center {
+    width: 90vw;
+    margin: 50px auto 0;
+    max-width: 620px;
+    padding-top: 6rem;
+  }
+  .question {
+    background: black;
+    border-radius: 0.5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem 1.5rem 0 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .question-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+    padding-bottom: 1rem;
+  }
+  
+  .question-title p {
+    letter-spacing: 0.1rem;
+    color: red;
+    font-weight: bolder;
+    font-size: 25px;
+  }
+  .question-btn {
+    font-size: 2rem;
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    color: red;
+  }
+  
+  .question-text {
+    padding: 1rem 0 1.5rem 0;
+    border-top: 1px solid white;
+    font-size: 20px;
+  }
+  
+  /* hide text */
+  .question-text {
+    display: none;
+  }
+  .show-text .question-text {
+    display: block;
+  }
+  .minus-icon {
+    display: none;
+  }
+  .show-text .minus-icon {
+    display: inline;
+  }
+  .show-text .plus-icon {
+    display: none;
+  }
