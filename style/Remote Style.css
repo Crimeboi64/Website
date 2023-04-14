@@ -96,7 +96,7 @@ p a:hover{
     color: blue;
 }
 
-body h1{
+h1{
     font-size: 75px;
-    color: white:
+    color: rgb(255,255,255);
 }
