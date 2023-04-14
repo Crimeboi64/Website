@@ -78,3 +78,17 @@ body{
     padding-left: 1.7rem;
 }
 
+header{
+    padding-top: 6rem;
+    padding-left: 4rem;
+}
+
+header a{
+    font-size: 50px;
+    text-decoration: none;
+    color: orange;
+}
+
+header a:hover{
+    color: black;
+}
