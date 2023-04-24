@@ -201,3 +201,8 @@ button.primaryContained:hover {
   .show-text .plus-icon {
     display: none;
   }
+
+  a{
+    text-decoration: underline;
+    color: pink;
+  }
