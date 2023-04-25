@@ -70,6 +70,10 @@ body{
     .sidebar{
         width: 500px;
     }
+
+    .fa-arrow-left{
+        padding-right: 10%;
+    }
     
 }
 

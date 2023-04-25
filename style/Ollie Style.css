@@ -71,6 +71,9 @@ body{
         width: 500px;
     }
     
+    .fa-arrow-left{
+        padding-right: 10%;
+    }
 }
 
 .menu a:hover{
