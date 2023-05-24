@@ -5,7 +5,7 @@
 
 body{
     font-family: sans-serif;
-    background: #ebebeb;
+    background: #FFC131;
 }
 
 .menu a {
@@ -86,9 +86,10 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: #ebebeb;
+    background: #FFC131;
 }
-  
+
+
 .forum{
     padding-left: 5%;
     color: black;
@@ -96,12 +97,22 @@ body {
     font-size: 25px;
 }
 
-.forum p {
+.forum p, li, a {
     padding-top: 1%;
     margin-bottom: 1.25rem;
-    color: #b98e56;
+    color: #FFFA6C;
+    text-decoration: none;
 }
 
+.officer p{
+    color: white;
+    padding-top: 1%;
+    margin-bottom: 1.25rem;
+    text-decoration: none;
+    padding-left: 5%;
+    margin: 10%;
+    font-size: 25px;
+}
 
 
 /*@media (max-width: 800px) {
