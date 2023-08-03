@@ -4,8 +4,9 @@
 }
 
 body{
+    padding-top: 5%;
     font-family: sans-serif;
-    background: rgba(247, 56, 56, 0.87);
+    background: whitesmoke;
 }
 
 .menu a {
@@ -21,7 +22,7 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    background: #F73898;
+    background: black;
     width: 100%;
     height: 100%;
     transition: all .3s linear;
@@ -36,7 +37,7 @@ body{
     position: fixed;
     top: 2rem;
     right: 3rem;
-    color: #F79838;
+    color: #f8a5a5;
     font-size: 1.5rem;
     cursor: pointer;
 }
@@ -47,7 +48,7 @@ body{
 
 .fa-arrow-left{
     font-size: 1.5rem;
-    color: #F79838;
+    color: #f8a5a5;
     cursor: pointer;
 }
 
@@ -85,7 +86,7 @@ body{
 p{
     font-family: 'Times New Roman', Times, serif;
     font-size: 35px;
-    color: #F79838;
+    color: black;
     padding-left: 10%;
     margin-right: 120px;
     margin-top: 10%;
@@ -93,12 +94,31 @@ p{
 
 p a{
     text-decoration: none;
-    color: #F79838;
+    color: black;
 }
+
 p a:hover{
     color: black;
 }
 
 h1{
+    padding-left: 10%;
     font-size: 75px;
+    color: grey;
 }
+
+.pages{
+    padding-left: 45%;
+    padding-top: 7%;
+}
+
+.pages table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: auto;
+  }
+  
+  td, th {
+    text-align: left;
+    padding: 8px;
+  }
