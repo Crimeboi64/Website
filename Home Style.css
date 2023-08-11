@@ -92,3 +92,10 @@ header a{
 header a:hover{
     color: black;
 }
+
+.center{
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 50%;
+}
