@@ -79,7 +79,7 @@ body{
 }
 
 header{
-    padding-top: 10%;
+    padding-top: 5%;
     padding-left: 35%;
 }
 
@@ -98,4 +98,15 @@ header a:hover{
         margin-right: auto;
         width: 50%;
         height: 50%;
+}
+
+.undertext{
+    padding-left: 23%;
+    font-size: 45px;
+}
+
+.toptext{
+    
+    padding-left: 32%;
+    font-size: 45px;
 }
