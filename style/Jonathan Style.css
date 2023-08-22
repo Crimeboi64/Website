@@ -6,6 +6,7 @@
 body{
     font-family: sans-serif;
     background: #ebebeb;
+    padding-top: 10;
 }
 
 .menu a {
@@ -207,6 +208,13 @@ button.primaryContained:hover {
   }
 
   a{
-    text-decoration: underline;
+    text-decoration: none;
     color: pink;
+    padding: 20px;
+    font-size: 35px;
+    padding-top: 300px;
+  }
+
+  a:hover{
+    color: black;
   }
