@@ -1,0 +1,13 @@
+@keyframes Alex1 {
+    0%  {left: 0px; top: 0px; opacity: 0;}
+    25% {left: 330px; top: 0px; opacity: 0;}
+    50% {left: 330px; top: 0px; opacity: 1; transform: rotate(-360deg);}
+    100%{left: 330px; top: 225px;}
+
+}
+
+@keyframes Money{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+
+}
