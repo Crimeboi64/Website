@@ -1,5 +1,5 @@
 html{
-    background-color: beige;
+    background-color: white;
 }
 .glasses {
     width: 125px;
@@ -60,4 +60,11 @@ html{
 
 .position{
     position: relative;
+}
+
+h1{
+    font-size: 80px;
+    text-align: center;
+    padding: 150px 0;
+
 }
