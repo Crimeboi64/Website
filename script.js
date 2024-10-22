@@ -1,7 +1,7 @@
 function One() {
     document.getElementById("Alex1").style.marginLeft = "200px";
   }
-function Truth() {
+function () {
     document.getElementById("maid").style.zIndex = "3"
     document.getElementById("html").style.backgroundColor = "black"
 }
@@ -18,3 +18,8 @@ function Four() {
     document.getElementById("Death").style.opacity = "1";
   }
 
+  function Five(){
+    document.getElementById("img").style.opacity = "1";
+    document.getElementById("img2").style.opacity = "1";
+
+  }
