@@ -1,24 +1,24 @@
-function One() {
+function Title() {
     document.getElementById("Alex1").style.marginLeft = "200px";
   }
-function () {
+function Title() {
     document.getElementById("maid").style.zIndex = "3"
     document.getElementById("html").style.backgroundColor = "black"
 }
 
-function Two() {
+function Title() {
     document.getElementById("Title").innerHTML = "Alex Russano";
   }
 
-function Three() {
+function Title() {
     document.getElementById("Alex2").style.opacity = "1"
   }
 
-function Four() {
+function Title() {
     document.getElementById("Death").style.opacity = "1";
   }
 
-  function Five(){
+  function Title(){
     document.getElementById("img").style.opacity = "1";
     document.getElementById("img2").style.opacity = "1";
 

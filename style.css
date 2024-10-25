@@ -1,5 +1,6 @@
 html{
-    background-color: #909EFF;
+height: 100%;
+background-image: linear-gradient(rgba(23,64,109,1), rgba(23,64,109,0.5));
 
 }
 
@@ -10,7 +11,7 @@ html{
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #90D6FF;
+    background-color: #009DD9;
     overflow-x: hidden;
     padding-top: 20px;
   }
@@ -19,7 +20,7 @@ html{
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 30px;
-    color: #FFB990;
+    color: Black;
     display: block;
   }
  .sidenav li {
