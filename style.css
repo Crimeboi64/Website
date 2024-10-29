@@ -4,7 +4,7 @@ background-image: linear-gradient(rgba(23,64,109,1), rgba(23,64,109,0.5));
 
 }
 
-  @media ((min-aspect-ratio: 9/16 ) and (max-aspect-ratio: 9/16)){
+  @media (max-aspect-ratio: 9/16 ) {
     
     .sidenav {
       height: 100%;
@@ -68,30 +68,6 @@ background-image: linear-gradient(rgba(23,64,109,1), rgba(23,64,109,0.5));
   }
 
   @media (min-aspect-ratio: 16/9) {
-    .window-left{
-      font-size: 1.5rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: .5rem 10rem;
-      opacity: 0;
-    }
-  
-    .window-left:hover{
-      color: whitesmoke;
-    }
-  
-    .window-right{
-      font-size: 1.5rem;
-      position: absolute;
-      align-items: left;
-      z-index: 0;
-      opacity: 0;
-    }
-  
-    .window-right:hover{
-      color: whitesmoke;
-    }
 
     .sidenav {
       height: 100%;
@@ -112,6 +88,7 @@ background-image: linear-gradient(rgba(23,64,109,1), rgba(23,64,109,0.5));
       font-size: 30px;
       color: Black;
       display: block;
+      opacity: 1;
     }
    .sidenav li {
       padding: 6px;
@@ -119,8 +96,33 @@ background-image: linear-gradient(rgba(23,64,109,1), rgba(23,64,109,0.5));
       font-size: 15px;
       color: Black;
       display: block;
+      opacity: 1;
     }
     
+    .fa-arrow-left{
+      font-size: 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: .5rem 10rem;
+      opacity: 0;
+    }
+  
+    .fa-arrow-left:hover{
+      color: whitesmoke;
+    }
+  
+    .fa-arrow-right{
+      font-size: 1.5rem;
+      position: absolute;
+      align-items: left;
+      z-index: 0;
+      opacity: 0;
+    }
+  
+    .fa-arrow-right:hover{
+      color: whitesmoke;
+    }
   }
 
   .main {
