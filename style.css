@@ -1,8 +1,9 @@
-html{
-  height: 100%;
-  background-image: linear-gradient(rgb(249, 152, 6), rgba(19, 9, 0, 0.799));
-  
-  }
+
+  html{
+height: 100%;
+background-image: linear-gradient(rgba(23,64,109,1), rgba(23,64,109,0.5)); 
+}
+
 
   @media (max-aspect-ratio: 9/16 ) {
     
@@ -13,9 +14,9 @@ html{
       z-index: 1;
       top: 0;
       left: 0;
-      background-color: orangered;
+      background-color: #009DD9;
       overflow-x: hidden;
-      padding-top: 10px;
+      padding-top: 8px;
       transition: all .3s linear;
       transform: translate(-100%);
     }
@@ -76,9 +77,9 @@ html{
       z-index: 1;
       top: 0;
       left: 0;
-      background-color: orangered;
+      background-color: #009DD9;
       overflow-x: hidden;
-      padding-top: 10px;
+      padding-top: 8px;
       opacity: 1;
     }
     
@@ -142,4 +143,8 @@ h1{
     text-align: center;
     padding: 60px 0;
 
+}
+
+.link{
+  color: azure;
 }
