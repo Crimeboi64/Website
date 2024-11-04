@@ -16,7 +16,7 @@ background-image: linear-gradient(rgba(23,64,109,1), rgba(23,64,109,0.5));
       left: 0;
       background-color: #009DD9;
       overflow-x: hidden;
-      padding-top: 8px;
+      padding-top: 0px;
       transition: all .3s linear;
       transform: translate(-100%);
     }
@@ -26,7 +26,7 @@ background-image: linear-gradient(rgba(23,64,109,1), rgba(23,64,109,0.5));
     }
     
     .sidenav a {
-      padding: 6px 8px 6px 16px;
+      padding: 4px 8px 1px 16px;
       text-decoration: none;
       font-size: 40px;
       color: Black;
@@ -79,12 +79,12 @@ background-image: linear-gradient(rgba(23,64,109,1), rgba(23,64,109,0.5));
       left: 0;
       background-color: #009DD9;
       overflow-x: hidden;
-      padding-top: 8px;
+      padding-top: 0px;
       opacity: 1;
     }
     
     .sidenav a {
-      padding: 6px 8px 6px 16px;
+      padding: 4px 8px 1px 16px;
       text-decoration: none;
       font-size: 30px;
       color: Black;
